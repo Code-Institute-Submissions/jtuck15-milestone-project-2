@@ -1,0 +1,112 @@
+
+/*Fonts*/
+
+
+
+/*body*/
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*button colors*/
+
+#blue {
+    background-color: blue;
+}
+
+#blue:active {
+  background-color: #08bdbd;
+}
+
+#blue.hover {
+  background-color: #08bdbd;
+}
+
+#green {
+    background-color: green;
+}
+
+#green:active {
+  background-color: #29bf12;
+}
+
+#green.hover {
+  background-color: #29bf12;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#yellow:active {
+  background-color: #ff9914;
+}
+
+#yellow.hover {
+  background-color: #ff9914;
+}
+
+#red {
+    background-color: red;
+}
+
+#red:active {
+  background-color: #f21b3f;
+}
+
+#red.hover {
+  background-color: #f21b3f;
+}
+
+
+.gamebutton {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px auto;
+}
+
+h1 {
+    margin-bottom: 80px;
+}
+
+.gamearea {
+  max-width: 550px;
+  margin: 20px auto;
+}
+
+.btn-settings {
+  font-size: 3em;
+  width: 75px;
+  text-align: left;
+  transition: 500ms;
+}
+.btn-settings:hover {
+  color: #3632ea;
+}
+
+/*Modal*/
+
+h4.sett-menu:hover {
+    cursor: pointer;
+}
+
+.black-text,
+.modal-title {
+    color: black;
+}
