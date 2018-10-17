@@ -1,7 +1,7 @@
 
 /*Fonts*/
 
-
+@import url('https://fonts.googleapis.com/css?family=Mali:400,700');
 
 /*body*/
 
@@ -15,51 +15,55 @@ body {
 /*button colors*/
 
 #blue {
-    background-color: blue;
+    background-color: #3A3AF2;
 }
 
-#blue:active {
-  background-color: #08bdbd;
-}
-
+#blue:active,
 #blue.hover {
-  background-color: #08bdbd;
+  background-color: #3A3AF2;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  -moz-box-shadow:    2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  box-shadow:         2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
 }
 
 #green {
-    background-color: green;
+    background-color: #00FA9E;
 }
 
-#green:active {
-  background-color: #29bf12;
-}
-
+#green:active,
 #green.hover {
-  background-color: #29bf12;
+  background-color: #00FA9E;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  -moz-box-shadow:    2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  box-shadow:         2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
 }
 
 #yellow {
-    background-color: yellow;
+    background-color: #ffff20;
 }
 
-#yellow:active {
-  background-color: #ff9914;
-}
-
+#yellow:active,
 #yellow.hover {
-  background-color: #ff9914;
+  background-color: #ffff20;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  -moz-box-shadow:    2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  box-shadow:         2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
 }
 
 #red {
-    background-color: red;
+    background-color: #ea0a0a;
 }
 
-#red:active {
-  background-color: #f21b3f;
-}
-
+#red:active,
 #red.hover {
-  background-color: #f21b3f;
+  background-color: #ea0a0a;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  -moz-box-shadow:    2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
+  box-shadow:         2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px 2px 18px 2px rgba(247, 247, 247, 0.86), -2px 0px 18px 2px rgba(247, 247, 247, 0.86), 0px -2px 18px 2px rgba(247, 247, 247, 0.86);
 }
 
 
@@ -67,6 +71,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    
 }
 
 .top-row, .bottom-row {
@@ -83,6 +88,9 @@ body {
 
 h1 {
     margin-bottom: 80px;
+    font-family: "Mali";
+    font-weight: 700;
+    font-size: 3.5em;
 }
 
 .gamearea {
@@ -91,6 +99,7 @@ h1 {
 }
 
 .btn-settings {
+  font-family: "Mali";
   font-size: 3em;
   width: 75px;
   text-align: left;
@@ -99,6 +108,7 @@ h1 {
 .btn-settings:hover {
   color: #3632ea;
 }
+
 
 /*Modal*/
 

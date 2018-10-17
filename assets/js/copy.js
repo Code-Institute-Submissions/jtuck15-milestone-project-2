@@ -89,7 +89,7 @@ function playerTurn(x) {
       alert("Hard Luck...Start Again!");
       newGame();
     } else {
-      alert("Unlucky...Try again!");
+      alert("Unlucky...Try Again!");
       allowMoves();
     }
    } else {
@@ -99,8 +99,9 @@ function playerTurn(x) {
       if (check) {
         if(game.count == 20){
           alert("You have completed the game...Congratulations!!!");
+          clearGame();
         } else {
-          alert('Next round!');
+          alert('Next Round!');
           nextRound();
         }
       }
@@ -113,7 +114,6 @@ function nextRound() {
 
 function makeAMove(){
   game.currentGame.push(game.possibleColors[(Math.floor(Math.random()*4))]);
-  //alert(game.currentGame.length);
   allowMoves();
 }
 
