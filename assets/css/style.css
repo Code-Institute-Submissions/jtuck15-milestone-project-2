@@ -109,6 +109,12 @@ h1 {
   color: #3632ea;
 }
 
+#clickNumber {
+    font-family: "Mali";
+    font-weight: 700;
+    font-size: 3em;
+}
+
 
 /*Modal*/
 
