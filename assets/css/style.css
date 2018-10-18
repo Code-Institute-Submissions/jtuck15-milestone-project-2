@@ -6,7 +6,10 @@
 /*body*/
 
 body {
-    background-color: black;
+    background-image: url("http://getwallpapers.com/wallpaper/full/5/d/2/1029763-black-elegant-wallpaper-2560x1600-mobile.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: center center;
     color: white;
 }
 
@@ -71,7 +74,10 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    
+}
+
+.header-row {
+    height: 140px;
 }
 
 .top-row, .bottom-row {
@@ -125,4 +131,29 @@ h4.sett-menu:hover {
 .black-text,
 .modal-title {
     color: black;
+}
+
+/*Media Queries*/
+
+@media (max-width: 769px) {
+    .btn-settings {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .gamebutton {
+        width: 110px;
+        height: 110px;
+    }
+    
+    .middle-row {
+        height: 78px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    .gamearea {
+        margin-left: 10px;
+    }
 }
