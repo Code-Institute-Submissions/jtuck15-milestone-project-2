@@ -12,6 +12,18 @@ var game = {
     strict: false,
 };
 
+var startButton = document.querySelector('#start');
+
+startButton.onclick = function() {
+	start();
+};
+
+function start() {
+    game.currentGame = [];
+    game.count = 0;
+    makeAMove(); 
+}
+
 function clearGame() {
     game.currentGame = [];
     game.count = 0;
