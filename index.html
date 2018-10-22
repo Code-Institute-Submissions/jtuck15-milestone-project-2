@@ -33,10 +33,12 @@
                 <div class="md-col-12">
                     <div class="gamearea">
                         <div class="btn-settings" data-toggle="modal" data-target="#myModal">
-                            <button class="sett-btn">Settings</button>
+                            <button class="sett-btn">How to play?</button>
                         </div>
-                        <div id="start" onClick="start(this.id)">
-                            <button class="start-btn">Start</button>
+                        <div class="heading-btns">
+                            <button class="start-btn" id="start" onClick="start(this.id)">Start</button>
+                            <button class="btn-strict" id="strict" onClick="strict()">Strict OFF</button>
+                            <button class="btn-reset" onClick="newGame()">Reset</button>
                         </div>
                         <div class="top-row">
                             <div id="blue" class="gamebutton" onClick="addToPlayer(this.id)"></div>
@@ -62,38 +64,37 @@
 
         </footer>
 
-        <div class="row">
-            <div class="col-md-12">
-
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h2 class="modal-title text-center" id="myModalLabel">Settings</h2>
+                                <h2 class="modal-title text-center" id="myModalLabel">How CopyCat Works</h2>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <h4 class="black-text">Strict Mode</h4>
-                                        <p class="btn btn-info text-center" id="strict" onClick="strict()">OFF</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <h4 class="black-text">Reset</h4>
-                                        <p class="btn btn-warning text-center" data-dismiss="modal" onClick="newGame()">Reset</p>
+                                    <div class="col-md-12">
+                                        <p class="about-game">
+                                            You click on the "Start" button and one of the colours on the screen will flash and also make a sound. You 
+                                            follow this pattern by clicking the colour that flashed. If you guess correctly, an alert will pop up on the screen saying "Correct,
+                                            Next Round!". The process will then repeat, with an extra count being added with every round. If you guess incorrectly an alert will 
+                                            pop up on the screen saying "Unlucky...Try Again!". The pattern will then be repeated to remind you of the sequence, 
+                                            and once the pattern is complete you can try follow it again. Once you have reached a count of 20, an alert will pop up on the screen 
+                                            saying "You have completed the game...Congratulations!!!". <br>
+                                            <strong>Strict Mode</strong> - Once you enable Strict Mode, if you get the pattern wrong, there is no second chances. An alert will pop up on 
+                                            the screen saying "Hard Luck...Start Again!". <br>
+                                            <p class="text-center lucky-end"><strong>Best of luck and I hope you enjoy the game!!!</strong></p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+               
         </div>
     </div>
 

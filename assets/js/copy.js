@@ -27,20 +27,26 @@ function start() {
 function clearGame() {
     game.currentGame = [];
     game.count = 0;
-    addCount();
+    // addCount();
 }
 
 function newGame() {
+    game.count = 0;
+    $('#clickNumber').addClass('animated fadeOutDown');
+  
+    setTimeout(function(){
+    $('#clickNumber').removeClass('fadeOutDown').html(game.count).addClass('fadeInDown');
+  }, 300);
     clearGame();
 }
 
 function strict() {
   if (game.strict == false) {
     game.strict = true;
-    $("#strict").html("ON").removeClass("btn-info").addClass("btn-danger");
+    $("#strict").html("Strict ON").css("color", "#3632ea");;
   } else {
     game.strict = false;
-    $("#strict").html("OFF").removeClass("btn-danger").addClass("btn-info");
+    $("#strict").html("Strict OFF").css("color", "black");
   }
   
   newGame();
@@ -113,7 +119,7 @@ function playerTurn(x) {
           alert("You have completed the game...Congratulations!!!");
           clearGame();
         } else {
-          alert('Next Round!');
+          alert("Correct, Next Round!");
           nextRound();
         }
       }
