@@ -119,7 +119,7 @@ function playerTurn(x) {
           alert("You have completed the game...Congratulations!!!");
           clearGame();
         } else {
-          alert("Correct, Next Round!");
+          alert("Well Done, Next Round!");
           nextRound();
         }
       }
