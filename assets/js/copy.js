@@ -27,7 +27,6 @@ function start() {
 function clearGame() {
     game.currentGame = [];
     game.count = 0;
-    // addCount();
 }
 
 function newGame() {
@@ -43,7 +42,7 @@ function newGame() {
 function strict() {
   if (game.strict == false) {
     game.strict = true;
-    $("#strict").html("Strict ON").css("color", "#3632ea");;
+    $("#strict").html("Strict ON").css("color", "#3632ea");
   } else {
     game.strict = false;
     $("#strict").html("Strict OFF").css("color", "black");
@@ -117,7 +116,7 @@ function playerTurn(x) {
       if (check) {
         if(game.count == 20){
           alert("You have completed the game...Congratulations!!!");
-          clearGame();
+          newGame();
         } else {
           alert("Well Done, Next Round!");
           nextRound();

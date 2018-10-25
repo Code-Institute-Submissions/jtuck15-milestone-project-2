@@ -1,4 +1,5 @@
 References
 
 https://codepen.io/simurai/pen/DwJdq - brushed metal design
-
+http://angrytools.com/gradient/ - color gradients for buttons
+animate.css -http://daneden.me/animate
