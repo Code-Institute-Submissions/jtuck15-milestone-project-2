@@ -1,13 +1,13 @@
 /*Fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Mali:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Ubuntu:700|Mali:400,700');
 
 /*body*/
 
 body {
     background-image: url("http://getwallpapers.com/wallpaper/full/5/d/2/1029763-black-elegant-wallpaper-2560x1600-mobile.jpg");
     background-size: cover;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-position: center center;
     color: white;
 }
@@ -293,6 +293,47 @@ button.btn.btn-primary:active {
 
 span {
     color: #848383;
+}
+
+
+/*Footer*/
+
+hr.style {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(134, 124, 124, 0), rgba(134, 124, 124, 0.75), rgba(134, 124, 124, 0));
+    
+}
+
+.social-structure {
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 1.6em;
+    margin-top: 12px;
+    padding-bottom: 8px;
+}
+
+i.fa.fa-linkedin {
+    background-color: #0077b5;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 0.85em;;
+}
+
+i.fa.fa-github {
+    color: #fff;
+    font-size: 1.31em
+}
+
+li.linkedin.hvr-grw {
+    margin-top: -10px;
+}
+
+li.github.hvr-grw {
+    margin-top: -5px;
 }
 
 /*Media Queries*/
