@@ -7,7 +7,6 @@
 body {
     background-image: url("http://getwallpapers.com/wallpaper/full/5/d/2/1029763-black-elegant-wallpaper-2560x1600-mobile.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
     color: white;
 }
@@ -295,46 +294,28 @@ span {
     color: #848383;
 }
 
+/*SweetAlert Modal*/
 
-/*Footer*/
-
-hr.style {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(134, 124, 124, 0), rgba(134, 124, 124, 0.75), rgba(134, 124, 124, 0));
-    
+.swal-modal {
+    font-family: Mali
 }
 
-.social-structure {
+.swal-footer {
     text-align: center;
-    font-family: Pacifico;
-    font-size: 1.6em;
-    margin-top: 12px;
-    padding-bottom: 8px;
 }
 
-i.fa.fa-linkedin {
-    background-color: #0077b5;
-    color: white;
-    padding: 3px 6px;
-    border-radius: 3px;
-    font-size: 0.85em;;
+button.swal-button.swal-button--confirm {
+    background-color: rgb(255, 0, 0);
 }
 
-i.fa.fa-github {
-    color: #fff;
-    font-size: 1.31em
+.swal-icon--error {
+    border-color: rgb(255, 0, 0);
 }
 
-li.linkedin.hvr-grw {
-    margin-top: -10px;
+span.swal-icon--error__line {
+    background-color: rgb(255, 0, 0);
 }
 
-li.github.hvr-grw {
-    margin-top: -5px;
-}
 
 /*Media Queries*/
 

@@ -59,7 +59,7 @@ function allowMoves() {
     if (i >= game.currentGame.length) {
       clearInterval(moves);
     }
-  }, 600);
+  }, 700);
   
   clearPlayer();
 }
@@ -103,7 +103,12 @@ function addToPlayer(id) {
 function playerTurn(x) {
   if (game.player[game.player.length - 1] !== game.currentGame[game.player.length - 1]) {
     if(game.strict){
-      alert("Hard Luck...Start Again!");
+      swal({
+            title: "Hard Luck!",
+            text: "Start Again",
+            icon: "error",
+            button: "Ok",
+            });
       newGame();
     } else {
       alert("Unlucky...Try Again!");
@@ -118,7 +123,13 @@ function playerTurn(x) {
           alert("You have completed the game...Congratulations!!!");
           newGame();
         } else {
-          alert("Well Done, Next Round!");
+          swal({
+            title: "Well Done!",
+            text: "Next Round",
+            icon: "success",
+            button: false,
+            timer: 500,
+            });
           nextRound();
         }
       }
