@@ -319,11 +319,6 @@ span.swal-icon--error__line {
 
 /*Media Queries*/
 
-@media (max-width: 769px) {
-    .btn-settings {
-        /*margin-left: 20px;*/
-    }
-}
 
 @media (max-width: 425px) {
     .gamebutton {
