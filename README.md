@@ -21,7 +21,8 @@ The purpose of this project is to create a static **(front-end only)** website a
  
  These can be found at the following links below:
 
->
+>https://github.com/jtuck15/milestone-project-2/blob/master/assets/copycat_original_wireframe.png
+https://github.com/jtuck15/milestone-project-2/blob/master/assets/copycat_updated_wireframe.png
 
 ## Features
 
