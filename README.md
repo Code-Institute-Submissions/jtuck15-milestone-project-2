@@ -76,7 +76,7 @@ A big issue I realised after playing the game for a little while was when the ga
 ### Validation
 HTML file passed validation testing at https://validator.w3.org/nu/#textarea <br>
 CSS file passed validation testing at https://jigsaw.w3.org/css-validator/validator <br>
-JS file passed validation testing at https://www.piliapp.com/javascript-validator/
+JS file passed validation testing at https://jshint.com/ and https://www.piliapp.com/javascript-validator/
 
 ## Deployment
 My website is currently deployed on Github Pages - https://jtuck15.github.io/milestone-project-2/
