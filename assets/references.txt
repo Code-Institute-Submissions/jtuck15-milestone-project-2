@@ -2,5 +2,5 @@ References
 
 https://codepen.io/simurai/pen/DwJdq - brushed metal design
 http://angrytools.com/gradient/ - color gradients for buttons
-animate.css -http://daneden.me/animate
-https://sweetalert.js.org
+http://daneden.me/animate - animate.css
+https://sweetalert.js.org - alerts for the game

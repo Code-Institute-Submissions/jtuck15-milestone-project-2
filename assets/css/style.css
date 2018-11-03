@@ -222,7 +222,6 @@ h1 {
     -webkit-radial-gradient( 50% 50%, 200% 50%, hsla(0, 0%, 90%, 1) 5%, hsla(0, 0%, 85%, 1) 30%, hsla(0, 0%, 60%, 1) 100%);
 }
 
-
 .btn-strict {
     font-size: .95em;
 }
@@ -318,7 +317,6 @@ span.swal-icon--error__line {
 
 
 /*Media Queries*/
-
 
 @media (max-width: 425px) {
     .gamebutton {
