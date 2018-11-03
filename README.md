@@ -50,7 +50,7 @@ There is a counter set directly in the middle between all of the gamebuttons whi
 - **CSS** - This was used to style the website 
 - **[Bootstrap](https://getbootstrap.com/docs/3.3/)** - This was used to get the layout up and running quickly and also use grids to help with the responsive design
 - **[JavaScript](https://www.javascript.com/)** - This was used to build the functionality of the game
-- **[JQuery](https://jquery.com/)** - This was also used to build the functionality of the game and contribute to the fade effect on the round counter.
+- **[JQuery](https://jquery.com/)** - This was also used to build the functionality of the game and contribute to the fade effect on the round counter
 
 ## Testing
 
@@ -71,7 +71,7 @@ I have tested this game vigorously and was unable to find any problems with it. 
 - Safari
 
 ### Issues/Bugs
-
+A big issue I realised after playing the game for a little while was when the game automatically started when the webpage loaded. I had some of my colleagues in work try out the game and to provide me with feedback on what they thought was good and what was not so good. Overall the feedback was great, however they also found it quite annoying when the game would start automatically. I implemented the start button to combat this issue and I think it makes a difference to the overall performance of the game.
 
 ### Validation
 HTML file passed validation testing at https://validator.w3.org/nu/#textarea <br>
@@ -85,15 +85,16 @@ I was able to deploy the website here by going to my repository in which all the
 
 ## Credits
 
-### Content
-
-
 ### Media Content
-- [freeCodeCamp](https://www.freecodecamp.org/) Simon sounds 
+- [freeCodeCamp](https://www.freecodecamp.org/) - Simon sounds used in the game.
+- [SweetAlert](https://sweetalert.js.org) - I used some of these stylish alerts in my game.
+- [AngryTools](http://angrytools.com/gradient/) - I used this tool to style the gamebuttons.
 
 ### Acknowledgements
 - [Code Institute](https://www.codeinstitute.net/)
--
+- Daniel Eden - I used his [animate.css](https://daneden.github.io/animate.css/) library which allowed me to add the fade effect on the round counter.
+- Simurai - I used his brushed metal design on [Codepen](https://codepen.io/simurai/pen/DwJdq) for the buttons within my project.
+- [Bootstrap](https://getbootstrap.com/docs/3.3/javascript/#modals) - I used the modal on Bootstrap to implement the information into the how to play button.
 
 ### References
-Further references can be found 
+Further references can be found [here](https://github.com/jtuck15/milestone-project-2/blob/master/assets/references.txt)
